@@ -34,6 +34,47 @@
 
 An intelligent desktop automation system that uses Large Language Models (LLMs) to control Ubuntu desktop environments through visual understanding and direct input injection.
 
+## 🏗️ System Architecture
+
+```mermaid
+graph TB
+    A[User Text Prompt] --> B[Desktop Automator]
+    B --> C[Screenshot Capture]
+    C --> D[GPT-4 Vision API]
+    D --> E[JSON Action Response]
+    E --> F{Action Type?}
+    
+    F -->|Keyboard| G[UInput Controller]
+    F -->|Mouse Click| G
+    F -->|Mouse Move| H[PyAutoGUI Fallback]
+    F -->|Scroll| G
+    
+    G --> I[Linux Kernel evdev]
+    H --> J[X11/Wayland Display]
+    I --> K[Desktop Environment]
+    J --> K
+    
+    K --> L[Application Response]
+    L --> M[Next Screenshot]
+    M --> D
+    
+    N[Action History<br/>512 actions] --> D
+    O[Justification System] --> P[Verbose Logging]
+    
+    style A fill:#e1f5fe
+    style D fill:#f3e5f5
+    style G fill:#e8f5e8
+    style K fill:#fff3e0
+```
+
+### Key Components:
+- **🧠 LLM Vision**: GPT-4 analyzes screenshots and generates actions
+- **⌨️ UInput Controller**: Direct kernel-level input injection
+- **🖱️ Hybrid Mouse**: UInput for clicks, PyAutoGUI for movement
+- **📝 Action History**: 512-action context for intelligent decisions
+- **🔍 Justification**: Every action includes reasoning
+- **🛡️ Wayland Bypass**: Direct evdev injection circumvents compositor restrictions
+
 ## 🚀 Features
 
 - **Visual Desktop Understanding**: Takes screenshots and uses GPT-5 to understand desktop state
