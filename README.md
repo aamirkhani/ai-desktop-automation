@@ -1,4 +1,4 @@
-# AI Desktop Automation with LLM
+# AI Vision Desktop Assistant
 
 ## 🎬 Demo Videos & Screenshots
 
