@@ -1,5 +1,37 @@
 # AI Desktop Automation with LLM
 
+## 🎬 Demo Videos & Screenshots
+
+### AI Text Prompt: "Find largest two zip files on my machine"
+![Find largest two zip files demo](DEMO_VIDEOS_AND_SCREENSHOTS/Find%20largest%20two%20zip%20files%20on%20my%20machine.png)
+📹 [Download Video](DEMO_VIDEOS_AND_SCREENSHOTS/Find%20largest%20two%20zip%20files%20on%20my%20machine.mp4)
+
+### AI Text Prompt: "Open clocks and start a new timer"
+![Open clocks and start timer demo](DEMO_VIDEOS_AND_SCREENSHOTS/Open%20clocks%20and%20start%20a%20new%20timer.png)
+📹 [Download Video](DEMO_VIDEOS_AND_SCREENSHOTS/Open%20clocks%20and%20start%20a%20new%20timer.mp4)
+
+### AI Text Prompt: "Open firefox and goto netflix website"
+![Open firefox and goto netflix demo](DEMO_VIDEOS_AND_SCREENSHOTS/Open%20firefox%20and%20goto%20netflix%20website.png)
+📹 [Download Video](DEMO_VIDEOS_AND_SCREENSHOTS/Open%20firefox%20and%20goto%20netflix%20website.mp4)
+
+### AI Text Prompt: "Open this directory in files app"
+![Open directory in files app demo](DEMO_VIDEOS_AND_SCREENSHOTS/Open%20this%20directory%20in%20files%20app.png)
+📹 [Download Video](DEMO_VIDEOS_AND_SCREENSHOTS/Open%20this%20directory%20in%20files%20app.mp4)
+
+### AI Text Prompt: "Start the stop watch"
+![Start the stop watch demo](DEMO_VIDEOS_AND_SCREENSHOTS/Start%20the%20stop%20watch.png)
+📹 [Download Video](DEMO_VIDEOS_AND_SCREENSHOTS/Start%20the%20stop%20watch.mp4)
+
+### AI Text Prompt: "Write 5 killer jokes in libra office writer"
+![Write jokes in LibreOffice Writer demo](DEMO_VIDEOS_AND_SCREENSHOTS/Write%205%20killer%20jokes%20in%20libra%20office%20writer.png)
+📹 [Download Video](DEMO_VIDEOS_AND_SCREENSHOTS/Write%205%20killer%20jokes%20in%20libra%20office%20writer.mp4)
+
+### AI Text Prompt: "Write a table of 2 in libra office spreadsheet"
+![Write table in LibreOffice Calc demo](DEMO_VIDEOS_AND_SCREENSHOTS/Write%20a%20table%20of%202%20in%20libra%20office%20spreadsheet.png)
+📹 [Download Video](DEMO_VIDEOS_AND_SCREENSHOTS/Write%20a%20table%20of%202%20in%20libra%20office%20spreadsheet.mp4)
+
+---
+
 An intelligent desktop automation system that uses Large Language Models (LLMs) to control Ubuntu desktop environments through visual understanding and direct input injection.
 
 ## 🚀 Features
