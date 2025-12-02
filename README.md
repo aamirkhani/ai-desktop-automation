@@ -1,4 +1,5 @@
 # AI Vision Desktop Assistant
+*by Aamer Khani*
 
 ## 🎬 Demo Videos & Screenshots
 
