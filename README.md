@@ -216,7 +216,12 @@ The system creates several files during operation:
 
 ## 📄 License
 
-[Add your preferred license here]
+MIT License - see [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Author
+
+**Aamer Khani**  
+📧 aamerkhani@hotmail.com
 
 ## 🙏 Acknowledgments
 
